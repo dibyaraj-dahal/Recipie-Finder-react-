@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
+import logo from "../../assets/logo.png";
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -12,7 +13,7 @@ function Navbar() {
         {/* Logo and Title */}
         <div className="flex items-center gap-3">
           <img
-            src="/src/assets/logo.png"
+            src={logo}
             alt="Recipe Finder Logo"
             className="h-16 w-16 rounded-full object-cover"
           />

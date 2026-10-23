@@ -100,18 +100,7 @@ function RecipieDetails() {
         {recipe.strInstructions}
       </p>
 
-      {/* YouTube */}
-     {recipe.strYoutube && (
-  <a
-    href={recipe.strYoutube}
-    target="_blank"
-    rel="noreferrer"
-    className="mt-6 inline-block rounded-lg bg-red-500 px-5 py-3 font-semibold text-white hover:bg-red-600"
-  >
-    ▶ Watch Recipe Video
-  </a>
-)}
-
+      
     </div>
   );
 }

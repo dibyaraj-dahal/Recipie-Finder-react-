@@ -28,12 +28,7 @@ src={recipe.strMealThumb}
 
   <FavoriteButton recipe={recipe} />
 
-  <Link
-    to={`/recipe/${recipe.idMeal}`}
-    className="rounded-lg bg-orange-600 px-5 py-2 font-semibold text-white hover:bg-orange-700"
-  >
-    View Recipe
-  </Link>
+
 
 </div>
 

@@ -9,7 +9,7 @@ import Favourites from "./pages/Favourites";
 import RecipieDetails from "./pages/RecipieDetails";
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter  basename="/Recipe-finder">
 
       
 
